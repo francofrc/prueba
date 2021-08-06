@@ -1,0 +1,264 @@
+body{
+	background: #EFEFEF;
+}
+p{
+	font-family: cooper black;
+}
+article{
+	margin-bottom: 3%;
+	box-shadow: #041250 0px 0px 20px;
+	border-radius: 6px;
+}
+#titulo{
+	text-align: center;
+	font-family: algerian;
+	font-size: 2.5em;
+	color: #00F7FF;
+	background: #011265;
+}
+img{
+	width: 70%;
+	margin-left: 16%;
+}
+
+#menu{
+	display: flex;
+}
+#concept{
+	width: 75%;
+}
+#atajo{
+	width: 25%;
+	margin-top: 40px;
+}
+div  a{
+	color: white;
+}
+div center a{
+	background: black;
+	color: white;
+	border: blue 2px solid;
+}
+#menudivision{
+	width: 25%;
+	text-align: center;
+	background: black;
+	color: white;
+	border: #00F7FF 1px solid;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+#frontend{
+	background: #6177D8;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	margin-top: 10px;
+	display: flex;
+}
+#titulo-articulo{
+	color: #00FEB5;
+	text-shadow: black 0px 0px 5px;
+	font-size: 2em;
+}
+#backend{
+	padding-left: 10px;
+	background: #6177D8;
+	padding-bottom: 5px;
+	display: flex;
+}
+#api{
+	width: 50%;
+	border-right: 2px solid;
+	padding-left: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#articulo-api{
+	display: flex;
+	background: #6177D8;
+}
+#api-2{
+	width: 50%;
+	display: flex;
+	padding-left: 10px;
+}
+#rest{
+	width: 50%;
+}
+#maquetacion{
+	width: 65%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border-right:2px solid;
+	margin-left: 8px;
+}
+#javascript{
+	width: 35%;
+	padding-left: 10px;
+}
+#tecnologias-frontend{
+	border: 2px solid;
+	background: #6177D8;
+}
+#ti-tec-frontend{
+	color: #00FEB5 ;
+}
+#tec-frontend{
+	display: flex;
+	border-top: 2px solid;
+}
+#articulo-javascript{
+	border: 2px solid;
+	background: #6177D8;
+}
+#section-javascript{
+	display: flex;
+}
+#div-javascript{
+	width: 50%;
+	text-align: center;
+	border: 2px solid;
+}
+#titulo-javascript{
+	text-align: center;
+	border-bottom: black 2px solid;
+	color: #00FEB5;
+}
+#grupo-javascript{
+	display: flex;
+	width: 50%;
+	background: #041250;
+	color: white;
+}
+#estado{
+	text-align: center;
+}
+#tec-backend{
+	text-align: center;
+	color:#00FEB5;
+}
+#DB{
+	width: 25%;
+	background: #00FEB5;
+	border-right: 2px solid;
+	margin-right: 5px;
+}
+#SQL{
+	display: flex;
+}
+#DBA{
+	width: 50%;
+	display: flex;
+}
+#no-SQL{
+	width: 50%;
+	display: flex;
+}
+#sql{
+	width: 5%;
+}
+#div-sql{
+	width: 45%;
+}
+#dba-sql{
+	width: 5%;
+}
+#div-nosql{
+	width: 5%;
+}
+#nosql{
+	width: 45%;
+}
+#tecnologias-backend{
+	border: 2px solid;
+	background: #6177D8;
+}
+#base-de-datos{
+	display: flex;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	background: #00FEB5;
+}
+#div-div-lenguajes{
+	width: 100%;
+	border: 2px solid;
+	display: flex;
+	border-radius: 5px;
+}
+#grupo{
+	width: 100%;
+	display: flex;
+}
+#div-lenguajes{
+	display: flex;
+	background: #041250;
+	color: white;
+}
+#logo{
+	width: 25%;
+}
+#leng{
+	width: 75%;
+	text-align: center;
+	padding-top: 10px;
+}
+#merge{
+	width: 50%;
+	text-align: center;
+	border-right: 2px solid;
+}
+#master{
+	width: 50%;
+	text-align: center;
+}
+#GIT{
+	display: flex;
+	border: 2px solid;
+	background: #00FEB5;
+}
+#articulo-GIT{
+	border: 2px solid;
+	background:#6177D8 ;
+}
+@media(max-width: 700px){
+	#SQL{
+		display: block;
+	}
+	#DBA{
+		width: 100%;
+	}
+	#no-SQL{
+		width: 100%;
+	}
+	#DB{
+		width: 100%;
+		padding-top: 5px;
+	}
+	#api-2{
+		display: block;
+		width: 100%;
+	}
+	#rest{
+		margin-left: 20px;
+	}
+	#titulo{
+		font-size: 1.5em;
+	}
+
+	#div-lenguajes{
+		display: block;
+	}
+	#grupo{
+		display: flex;
+	}
+	#grupo-javascript{
+		display: block;
+	}
+	#div-javascript{
+		width: 100%;
+	}
+}
+		
+	
+	
